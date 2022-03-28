@@ -108,7 +108,6 @@ data() {
       formLabelWidth: "120px",
       name: "模板-砼抗压强度推算分析软件.xlsx",
       dialogVisible: false,
-      dialogVisible1: false,
       downloadLoading: false,
       formT: {},
       errorIndexArr: [],
