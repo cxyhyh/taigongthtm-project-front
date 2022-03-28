@@ -8,7 +8,7 @@ import but from './views/Home/but.vue'
 Vue.use(Button);
 Vue.use(VueRouter);
 let router = new VueRouter({
-    mode: 'history',
+    // mode: 'history',
     routes: [{
             path: '/',
             name: 'index',

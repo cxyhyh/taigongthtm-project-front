@@ -71,7 +71,7 @@ export default {
                 axisLine: {
                   show: true,
                   lineStyle: {
-                    color: "blue",
+                    color: "#37A2DA",
                     width: 2, //这里是为了突出显示加上的
                   },
                 },
@@ -89,7 +89,7 @@ export default {
                  axisLine: {
                   show: true,
                   lineStyle: {
-                    color: "blue",
+                    color: "#37A2DA",
                     width: 2, //这里是为了突出显示加上的
                   },
                 },
@@ -98,7 +98,7 @@ export default {
                 max: 70,
                 splitLine:{
                   lineStyle:{
-                    color:"blue",
+                    color:"#37A2DA",
                     type:"dashed"
                   }
                 }
@@ -109,7 +109,8 @@ export default {
                 name: "值",
                 itemStyle: {
                   normal: {
-                    color:"yellow",
+                    // color: ['#37A2DA','#e06343','#37a354','#b55dba','#b5bd48','#8378EA','#96BFFF'],
+                    color: '#8378EA',
                  
                   },
                 },

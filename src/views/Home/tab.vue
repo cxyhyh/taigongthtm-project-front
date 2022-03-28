@@ -8,14 +8,14 @@
                   border
                   :row-style="{ height: '9px' }"
                   :cell-style="{
-                    background: '#000a2d',
+                    background: 'white',
                     fontFamily: 'Arial',
                     fontSize: '12px',
                     textAlign: 'center',
                     padding: '4.2px',
                   }"
                   :header-cell-style="{
-                    background: '#000a2d',
+                    background: 'white',
                     fontFamily: 'Helvetica',
                     fontSize: '14px',
                     textAlign: 'center',
@@ -120,7 +120,7 @@ inject: ["reload"],
     height: 510px;
     margin-left: 10px;
     border-radius: 10px;
-     background-color: #000a2d;
+     background-color: white;
 
 }
 .block{
@@ -128,7 +128,7 @@ inject: ["reload"],
     margin-left: -16px;
 }
 .demonstration{
-    background-color: #000a2d;
+    background-color: white;
 }
 
 </style>

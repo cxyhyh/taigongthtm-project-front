@@ -26,16 +26,23 @@ export default {
       })
     }
   }
-  
+
 }
 </script>
 <style>
 body::-webkit-scrollbar {display: none;}
 html,
 body {
-	background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;/* 不设置的话页面滑动时，背景会不铺满*/
-  background-color: #000a2d;
-  
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 } 
+#app{
+  height: 100%;
+}
 </style>

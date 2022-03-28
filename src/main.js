@@ -26,7 +26,7 @@ Vue.use(Element, {
 });
 Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost:8080'
+axios.defaults.baseURL = 'http://121.43.158.100:8080'
 new Vue({
   router,
   store,
