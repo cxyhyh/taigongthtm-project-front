@@ -4,8 +4,7 @@
       <el-main>
           <div class="left">  <But></But></div>
            <div class="moddle"> <Tab></Tab></div>
-            <div class="right">  <Sdt>
-        </Sdt></div>
+            <div class="right">  <Sdt> </Sdt></div>
               
        
       

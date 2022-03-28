@@ -5,6 +5,9 @@ import index from './views/Home/index.vue'
 import sdt from './views/echarts/sdt.vue'
 import tab from './views/Home/tab.vue'
 import but from './views/Home/but.vue'
+import login from './views/login/login.vue'
+import admin from './views/Home/admin.vue'
+import sdt1 from './views/echarts/sdt1.vue'
 Vue.use(Button);
 Vue.use(VueRouter);
 let router = new VueRouter({
@@ -33,6 +36,25 @@ let router = new VueRouter({
             component: but,
         
         },
+        {
+            path: '/login',
+            name: 'login',
+            component: login,
+        
+        },
+        {
+            path: '/admin',
+            name: 'admin',
+            component: admin,
+        
+        },
+        {
+            path: '/sdt1',
+            name: 'sdt1',
+            component: sdt1,
+        
+        }
+
     ]
 })
 export default router;

@@ -121,6 +121,7 @@ inject: ["reload"],
     margin-left: 10px;
     border-radius: 10px;
      background-color: white;
+     color: black;
 
 }
 .block{

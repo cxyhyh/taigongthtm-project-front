@@ -31,7 +31,7 @@
             stripe
             align="center"
             height="250"
-            style="width: 100%"
+            style="width: 100%;color:black;"
           >
             <el-table-column
               :label="item.label"
@@ -86,9 +86,7 @@
           >
         </span>
       </el-dialog>
-      <el-button>
-        生成曲线
-      </el-button>
+    
     </div>
   </div>
 </template>
@@ -110,6 +108,7 @@ data() {
       formLabelWidth: "120px",
       name: "模板-砼抗压强度推算分析软件.xlsx",
       dialogVisible: false,
+      dialogVisible1: false,
       downloadLoading: false,
       formT: {},
       errorIndexArr: [],
@@ -265,6 +264,9 @@ methods:{
     remove() {
       this.list = [];
     },
+    openEchart(){
+this.dialogVisible1 = true;
+    }
 }
 }
 </script>
@@ -272,5 +274,8 @@ methods:{
 <style>
 .filter-container2{
 margin-left:60px;
+}
+#buts1{
+  margin-top: 10px;
 }
 </style>
